@@ -1,7 +1,8 @@
 import { Avatar } from "@heroui/avatar";
 import { Badge } from "@heroui/badge";
 import { Input } from "@heroui/input";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
+
 import { SearchIcon } from "@/components/icons";
 const ChatList = () => {
   return (
