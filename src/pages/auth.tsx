@@ -79,7 +79,7 @@ const Auth = () => {
           className="w-full max-w-md"
           items={tabs}
           selectedKey={selectedTab}
-          onSelectionChange={(key) => setTab(key as "sign-in" | "sign-up")}
+          onSelectionChange={(key): void => setTab(key as "sign-in" | "sign-up")}
         >
           {(item: { id: string; label: string }) => (
             <Tab key={item.id} title={item.label}>
